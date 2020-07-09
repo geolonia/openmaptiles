@@ -1,0 +1,18 @@
+# Mapnik XML
+data.xml
+*.thumb.png
+*.swp
+*.pbf
+
+# quickstart
+quickstart.log
+
+
+# imput / output data
+data/*
+
+# input wikidata
+wikidata/*
+
+# generated source files
+build/*

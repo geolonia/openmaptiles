@@ -1,0 +1,27 @@
+tileset:
+  layers:
+    - layers/waterway/waterway.yaml
+    - layers/landcover/landcover.yaml
+    - layers/transportation/transportation.yaml
+    - layers/water_name/water_name.yaml
+    - layers/transportation_name/transportation_name.yaml
+    - layers/place/place.yaml
+    - layers/poi/poi.yaml
+    - layers/aerodrome_label/aerodrome_label.yaml
+  name: Geolonia
+  version: 0.1.0
+  id: geolonia
+  description: "A tileset based on OpenStreetMap."
+  attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap</a>'
+  center: [-12.2168, 28.6135, 4]
+  bounds: [-180.0,-85.0511,180.0,85.0511]
+  maxzoom: 14
+  minzoom: 0
+  pixel_scale: 256
+  languages:
+    - en # English, Latin
+    - ja # Japanese
+  defaults:
+    srs: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over
+    datasource:
+      srid: 900913
