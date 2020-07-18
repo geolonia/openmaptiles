@@ -2,6 +2,8 @@ tileset:
   layers:
     - layers/waterway/waterway.yaml
     - layers/landcover/landcover.yaml
+    - layers/landuse/landuse.yaml
+    - layers/park/park.yaml
     - layers/transportation/transportation.yaml
     - layers/water_name/water_name.yaml
     - layers/transportation_name/transportation_name.yaml
@@ -11,7 +13,7 @@ tileset:
   name: Geolonia
   version: 0.1.0
   id: geolonia
-  description: "A tileset based on OpenStreetMap."
+  description: "A tileset based on OpenStreetMap"
   attribution: '<a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap</a>'
   center: [-12.2168, 28.6135, 4]
   bounds: [-180.0,-85.0511,180.0,85.0511]
